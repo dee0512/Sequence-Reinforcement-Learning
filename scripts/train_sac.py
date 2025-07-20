@@ -67,7 +67,7 @@ def train(seed=0, env_name='InvertedPendulum-v2', j=1):
     run = setup_neptune(parameters)
 
     hy = get_hyperparameters(env_name, 'SAC')
-    file_name = f"SAC_{env_name}_seed{seed}_j{j}"
+    file_name = f"SAC_{env_name}_{seed}_{j}"
 
     logging.info(f"Environment: {env_name} | Seed: {seed}")
     create_folders()

@@ -45,8 +45,7 @@ Hopper-v2
 Walker2d-v2  
 Ant-v2  
 HalfCheetah-v2  
-Humanoid-v2  
-HumanoidStandup-v2  
+Humanoid-v2
 Pendulum-v1  
 LunarLanderContinuous-v2  
 InvertedPendulum-v2  

@@ -31,9 +31,6 @@ hyperparametersSAC = {
     'Humanoid-v2':{
         'max_timesteps': 10000000
     },
-    'HumanoidStandup-v2':{
-            'max_timesteps': 1000000
-        },
     'Pendulum-v1': {
         'eval_freq': 2500,
         'max_timesteps': 30000,
