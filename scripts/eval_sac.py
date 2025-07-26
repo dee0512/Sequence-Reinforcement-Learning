@@ -148,6 +148,7 @@ def eval(seed=0, env_name='InvertedPendulum-v2', j=1):
             'seed': [seed],
             'reward': [avg_reward],
             'env_name': [env_name],
+            'j': [j],
             'steps': [s]
         })
         df1.to_csv('evalsac.csv', mode='a', index=False, header=None)
